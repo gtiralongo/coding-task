@@ -821,31 +821,31 @@ button.submit:hover {
 }
 
 .carousel__item:nth-child(1) {
-    background-image: url(https://www.pexels.com/es-es/foto/persona-manos-mujer-escritorio-4145190/);
+    background-image: url(https://images.pexels.com/photos/3806690/pexels-photo-3806690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-position: center;
     background-size: cover;
 }
 
 .carousel__item:nth-child(2) {
-    background-image: url(https://www.pexels.com/es-es/foto/cuaderno-negro-al-lado-del-lapiz-clic-blanco-5546907/);
+    background-image: url(https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-position: center;
     background-size: cover;
 }
 
 .carousel__item:nth-child(3) {
-    background-image: url(https://www.pexels.com/es-es/video/persona-manos-arte-creativo-5704763/);
+    background-image: url(https://images.pexels.com/photos/5546907/pexels-photo-5546907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-position: center;
     background-size: cover;
 }
 
 .carousel__item:nth-child(4) {
-    background-image: url(https://www.pexels.com/es-es/foto/ordenador-portatil-internet-macbook-ordenador-3987013/);
+    background-image: url(https://images.pexels.com/photos/3987013/pexels-photo-3987013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-position: center;
     background-size: cover;
 }
 
 .carousel__item:nth-child(5) {
-    background-image: url(https://www.pexels.com/es-es/foto/laptop-en-mesa-de-madera-3782248/);
+    background-image: url(https://images.pexels.com/photos/3782248/pexels-photo-3782248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-position: center;
     background-size: cover;
 }
