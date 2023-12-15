@@ -1,0 +1,37 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+
+<main>
+  <div>
+    <h2>Tareas</h2>
+    <h3><a href="{% url 'task:create' %}">Crear una tarea</a></h3>
+    <div class="list">
+      {% for task in task_list %}
+      <fieldset>
+        <legend>Nombre: {{task.nombre}}</legend>
+        <ul>
+          <!-- <li>Direccion de la task : {{task.ubicacion}}</li> -->
+          <li>Rubro: {{task.rubro}}</li>
+          <li>Fecha de fin : {{task.fecha_habilitacion}}</li>
+        </ul>
+
+        <div>
+          <a href="{% url 'task:detail' task.id  %}">
+            Detalle de {{task.nombre}} ✅</a
+          >
+        </div>
+        <div>
+          <a href="{% url 'task:delete' task.id %}"
+            >Borrar {{task.nombre }} ❌</a
+          >
+        </div>
+        <div>
+          <a href="{% url 'task:update' task.id %}"
+            >Editar {{task.nombre }}📋</a
+          >
+        </div>
+      </fieldset>
+      {% endfor %}
+    </div>
+  </div>
+</main>
+{% endblock %}
