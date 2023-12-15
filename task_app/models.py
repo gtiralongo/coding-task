@@ -12,7 +12,7 @@ class Task(Model):
     rubro = models.CharField(max_length=100, default="Test", blank=False, null=False)
     # contacto = models.EmailField(max_length=100, default="no_contact@mail.com")
     # ubicacion = models.CharField(max_length=100, default="Tienda online")
-    fecha_habilitacion = models.DateField(blank=False, null=False, auto_now=True)
+    fecha_inicio = models.DateField(blank=False, null=False, auto_now=True)
 
     # podemos crear la tabla con un nombre especifico pero se lo tenemos
     # que indicar directamente en la metaclase
